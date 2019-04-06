@@ -15,7 +15,7 @@ class App < Sinatra::Base
     members.each do |member_params|
       Hero.new({name: member_params[:name], power: member_params[:power], biography: member_params[:biography]})
     end
-    @hero = Hero.all
+    @super_hero = Hero.all
     
     erb :team
     
