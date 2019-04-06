@@ -1,2 +1,5 @@
 class hero
   
+  
+  
+end
