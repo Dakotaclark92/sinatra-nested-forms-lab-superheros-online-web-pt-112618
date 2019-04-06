@@ -1,4 +1,4 @@
-class team
+class Team
   attr_reader :name, :motto
   
   def initialize(params)
